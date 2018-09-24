@@ -12,7 +12,7 @@
   
     "content_scripts": [
       {
-        "matches": ["*://*.devforum.ro/*"],
+        "matches": ["*://*/*"],
         "js": ["index.js"]
       }
     ]
