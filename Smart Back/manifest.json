@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Smart Back",
+    "version": "1.0",
+  
+    "description": "Preventa backspace button to go to previus page. This extension is in development",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.devforum.ro/*"],
+        "js": ["index.js"]
+      }
+    ]
+  
+  }
